@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PetBox</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Pie.css" />
+  </head>
+  <body>
+    <!--Menu-->
+    <nav class="topheader">
+      <a href="" class="logo">
+        <img height="" width="100" src="img/Logo-sin-fondo.png" alt="" />
+      </a>
+
+      <ul class="Menu-Horizontal">
+        <li>
+          <a href="">Ver mas</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Informacion</a></li>
+            <li><a href="">Ayuda</a></li>
+            <li><a href="">Sobre Nosotros</a></li>
+          </ul>
+        </li>
+
+        <li><a href="">Perro</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Perro pequeño</a></li>
+            <li><a href="">Perro mediano</a></li>
+            <li><a href="">Perro grande</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="">Gato</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Gato pequeño</a></li>
+            <li><a href="">Gato mediano</a></li>
+            <li><a href="">Gato grande</a></li>
+          </ul>
+        </li>
+
+        <li><a href="">Contactanos</a></li>
+
+          <li>
+          <a href="">Ofertas</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Ofertas de hoy</a></li>
+            <li><a href="">Ofertas de temporada</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <!--Seccion PERRO-->
+    <section class="seccion-perro">
+      <div class="div-gral-perro">
+        <div class="div-perro.texto">
+          <h2>Sección Perro</h2>
+          <p>
+            Un perro es un mamífero doméstico de la familia de los cánidos,
+            descendiente del lobo, conocido por su lealtad y afinidad con los
+            humanos. Existen numerosas razas con gran diversidad de tamaños,
+            formas y pelajes, y se caracterizan por tener un olfato y oído muy
+            desarrollados.
+          </p>
+          <p>
+            Un perro es un compañero, un amigo, tu confidente y tu protector. No
+            hay mejor apoyo, que aquel que te puede brindar tu mascota canina.
+            Anímate a tener un perro, te esperará hasta que caiga la noche y te
+            amará hasta que termine su vida.
+          </p>
+        </div>
+
+        <div class="div-perro-img">
+          <img height="" width="" src="img/Perro-Sin-Fondo-Solo-1.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!--SECCION GATO-->
+    <section class="seccion-gato">
+      <div class="div-gral-gato">
+        <div class="div-gato.texto"></div>
+        <h2>Seccion Gato</h2>
+        <p>
+          Un gato es un mamífero carnívoro de la familia de los félidos, con
+          garras retráctiles, pelo suave, ojos grandes y agudos sentidos.
+          Conocido científicamente como Felis catus, es un animal doméstico
+          común, aunque conserva instintos de cazador, es ágil, rápido y se
+          comunica a través de sonidos como el maullido y el ronroneo.
+        </p>
+        <p>
+          Mamífero de la familia de los félidos, digitígrado, doméstico, de unos
+          50 centímetro(s) de largo desde la cabeza hasta el arranque de la
+          cola, que por sí sola mide unos 20 centímetro(s), de cabeza redonda,
+          lengua muy áspera, patas cortas y generalmente pelaje suave y espeso,
+          de color blanco, gris, pardo, rojizo o negro, empleado en algunos
+          lugares para cazar ratones. Usado en masculino referido a la especie
+        </p>
+
+        <div class="div-gato-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Bf1GSDK0b4s?si=XvcRcckogjVmYr5D"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <!--Formulario-->
+    <section class ="seccion-formulario">
+      <div class="div-cont-formulario">
+        <h2> Contactanos </h2>
+        <p>Complete todos los campos</p>
+        <form class="formulario">
+          <!--input/label-->
+          <div class="campo">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nambre" placeholder="Ingrese sus nombres">
+            <label for="nombre">Apellido:</label>
+            <input type="text" id="nombre" name="apellida" placeholder="Ingrese sus apellidos">
+          </div>
+          <!--Lista desplegable-->
+          <div class="campo">
+            <label for="nombre">Pais:</label>
+            <select id="pais" name="pais">
+              <option value="">seleccione un pais</option>
+              <option value="peru">Peru</option>
+              <option value="venezuela">Venezuela</option>
+              <option value="argentina">Argentina</option>
+              <option value="brazil">Brazil</option>
+            </select>
+          </div>
+          <!--checkbox-->
+          <div class="campo">
+            <label>Intereses:</label>
+                <ul class="lista-checkbox">
+                  <li><label><input type="checkbox" name="intereses" value="a">Razas Europeas</label></li>
+                  <li><label><input type="checkbox" name="intereses" value="b">Razas Americanas</label></li>
+                  <li><label><input type="checkbox" name="intereses" value="c">Razas Antiguas</label></li>
+                  <li><label><input type="checkbox" name="intereses" value="d">Razas Raras</label></li>
+                </ul>
+          </div>
+          <!--radio-->
+          <div class="campo">
+              <label>Sexo:</label>
+                  <ul class="lista-radio">
+                    <li><label><input type="radio" name="sexo" value="m">Masculino</label></li>
+                    <li><label><input type="radio" name="sexo" value="f">Femenino</label></li>
+                  </ul>
+                </div>
+                <button type="submit">Enviar</button>
+              </form>
+             <div>
+            </section>
+
+              <!-- PIE DE PAGINA -->
+    <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo y nombre de sitio -->
+          <div class="footer-brand">
+            <img
+              src="img/Logo-sin-fondo.png"
+              alt="Logo"
+              class="footer-logo"
+            />
+            <p>GuauBox</p>
+            <small>© 2025 Todos los derechos reservados</small>
+          </div>
+
+          <!-- Enlaces legales -->
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="/documentos/3.politica-privacidad.pdf"
+              >Política de Privacidad</a
+            >
+            <!-- Dentro de href llama a un documento pdf con la poltica-->
+            <a href="#">Términos y Condiciones</a>
+            <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+            <a href="/documentos/LeyProteccionDatos.pdf">Protección de Datos</a>
+          </div>
+
+          <!-- Redes sociales con íconos personalizados -->
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+           </body>
+          </html>

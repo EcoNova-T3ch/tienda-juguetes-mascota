@@ -1,0 +1,181 @@
+
+/*MENU*/
+.topheader {
+
+  position: fixed;
+ 
+  background-color: #fdfbf7;
+ 
+  width: 100%;
+ 
+  display: flex;
+ 
+  align-items: center;
+ 
+  justify-content: space-between;
+ 
+  padding: 0 20px;
+ 
+ }
+ 
+ .Menu-Horizontal {
+ 
+  list-style: none;
+ 
+  display: flex;
+ 
+  justify-content: space-around;
+ 
+  width: 100%;
+ 
+ }
+ 
+ .Menu-Horizontal li a {
+ 
+  text-decoration: none;
+ 
+  color: #3e2e2c;
+ 
+  display: block;
+ 
+  padding: 15px 20px;
+ 
+ }
+ 
+ .Menu-Vertical {
+ 
+  display: none;
+ 
+  padding: 0;
+ 
+  position: absolute;
+ 
+  list-style: none;
+ 
+  width: 200px;
+ 
+  background-color: #fdfbf7;
+ 
+ }
+ 
+ .Menu-Horizontal li a:hover {
+ 
+  color: orange;
+ 
+ }
+ 
+ .Menu-Horizontal li:hover .Menu-Vertical {
+ 
+  display: block;
+ 
+ }
+/*SECCION PERRO*/
+.seccion-perro{
+  padding:150px 20px;
+  background-color: orange;
+}
+.div-gral-perro{
+  display:flex;
+  justify-content: space-between;
+  align-items: :center;
+  max-width: 1200px;
+  margin:0 auto;
+  gap: 40px;
+}
+.div-perro-texto{
+  flex:1;
+}
+.div-perro-texto h2{
+  color:;
+  margin-bottom:15px;
+}
+.div-perro-texto p{
+  color:;
+  line-height: 1.6;
+  text-align:justify;
+}
+.div-perro-img{
+  flex:1;
+}
+.div-perro-img{
+  width:100%;
+  max-width: 500px;
+}
+/*SECCION GATO*/
+.seccion-gato{
+  padding:60px 20px;
+  background-color: white;
+}
+.div.gral.gato{
+  display:flex;
+  justify-content: space-between;
+  align-items: justify;
+  max-width: 1200px;
+  margin:0 auto;
+  gap:40 px;
+}
+.div-gato-texto{
+  flex:1;
+}
+.div-gato-texto h2{
+  color:;
+  margin-bottom: 15px;
+}
+
+/*SECCION FORMULARIO*/
+.seccion-formulario{
+  background-color:orange;
+  padding: 40px;
+  border:3px;
+  display:flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.div-cont-formulario{
+  background-color:white;
+  padding:30px;
+  border:2px solid black;
+  border-radius:10px;
+  width:100%;
+  max-width: 500px;
+}
+.campo{
+  background-color:orange;
+  padding:15px;
+  border:1px;
+  border-radius:5px;
+  margin-bottom:15px;
+
+}
+.formulario label{
+  display:block;
+  font-weight:600 ;
+  margin-bottom:8px;
+  color:black;
+}
+/*input:text-select*/
+.formuario input[type="text"], .formulario select{
+  width:100%;
+  padding:6px;
+  border:1px solid orange;
+  border-radius:5px;
+  box-sizing:border-box;
+}
+.lista-checkbox,
+.lista-radio{
+  list-style:none;
+  padding:10px;
+  margin:0;
+  border:1px solid black;
+  background-color: white;
+}
+
+.formulario button{
+  background-color: orange;
+  color:black;
+  padding:10px 20px;
+  border-radius: 5px;
+  cursor:pointer;
+  display:block;
+  margin:10px auto;
+}
