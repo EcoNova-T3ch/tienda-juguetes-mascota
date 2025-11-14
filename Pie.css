@@ -1,7 +1,7 @@
 /* Footer general */
 .footer {
-  background-color: #222; /* Fondo oscuro para contraste */
-  color: white;
+  background-color: orange; /* Fondo oscuro para contraste */
+  color: black;
   padding: 2rem 1rem;
   font-family: "Roboto", sans-serif;
 }
@@ -24,7 +24,7 @@
 }
 
 .footer-logo {
-  width: 60px;
+  width: 120px;
   height: auto;
   margin-bottom: 0.5rem;
 }
@@ -37,7 +37,7 @@
 
 .footer-links a {
   display: block;
-  color: #ccc;
+  color: black; /*para las letras del pie de pagina*/
   text-decoration: none;
   margin: 0.3rem 0;
 }
