@@ -7,6 +7,7 @@
     <title>PetBox</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="Pie.css" />
+    <link rel="stylesheet" href="menu_toggle.css" />
   </head>
   <body>
  
@@ -64,7 +65,7 @@
     <!--Seccion PERRO-->
     <section class="seccion-perro">
       <div class="div-gral-perro">
-        <div class="div-perro.texto">
+        <div class="div-perro-texto">
           <h2>Sección Perro</h2>
           <p>
             Un perro es un mamífero doméstico de la familia de los cánidos,
@@ -90,23 +91,22 @@
     <!--SECCION GATO-->
     <section class="seccion-gato">
       <div class="div-gral-gato">
-        <div class="div-gato.texto"></div>
-        <h2>Seccion Gato</h2>
-        <p>
-          Un gato es un mamífero carnívoro de la familia de los félidos, con
-          garras retráctiles, pelo suave, ojos grandes y agudos sentidos.
-          Conocido científicamente como Felis catus, es un animal doméstico
-          común, aunque conserva instintos de cazador, es ágil, rápido y se
-          comunica a través de sonidos como el maullido y el ronroneo.
-        </p>
-        <p>
-          Mamífero de la familia de los félidos, digitígrado, doméstico, de unos
-          50 centímetro(s) de largo desde la cabeza hasta el arranque de la
-          cola, que por sí sola mide unos 20 centímetro(s), de cabeza redonda,
-          lengua muy áspera, patas cortas y generalmente pelaje suave y espeso,
-          de color blanco, gris, pardo, rojizo o negro, empleado en algunos
-          lugares para cazar ratones. Usado en masculino referido a la especie
-        </p>
+        
+        <div class="div-gato-texto">
+          <h2>Sección Gato</h2>
+          <p>
+            Un gato es un mamífero carnívoro de la familia de los félidos, con
+            garras retráctiles, pelo suave, ojos grandes y agudos sentidos.
+            Conocido científicamente como Felis catus, es un animal doméstico
+            común, aunque conserva instintos de cazador, es ágil, rápido y se
+            comunica a través de sonidos como el maullido y el ronroneo.
+          </p>
+          <p>
+            Mamífero de la familia de los félidos, digitígrado, doméstico, de unos
+            50 centímetro(s) de largo desde la cabeza hasta el arranque de la
+            cola, que por sí sola mide unos 20 centímetro(s).
+          </p>
+        </div>
 
         <div class="div-gato-video">
           <iframe
@@ -139,7 +139,7 @@
           <div class="campo">
             <label for="nombre">Pais:</label>
             <select id="pais" name="pais">
-              <option value="">seleccione un pais</option>
+              <option value="">Seleccione un pais</option>
               <option value="peru">Peru</option>
               <option value="venezuela">Venezuela</option>
               <option value="argentina">Argentina</option>
@@ -227,5 +227,6 @@
         </div>
       </footer>
     </section>
-           </body>
-          </html>
+    <script src="menu_toggle.js"></script>
+  </body>
+</html>

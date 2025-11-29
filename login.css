@@ -10,7 +10,6 @@
   /* Fondo atractivo para la vista de escritorio */
   background: linear-gradient(135deg, orange 0%, orangered 100%);
   padding: 1.25rem; /* 20px de padding */
-  font-family: "Creepster", system-ui;
 }
 
 /* La caja del formulario */
@@ -28,6 +27,7 @@
   margin-bottom: 1.5625rem; /* 25px */
   color: #333;
   font-size: 1.8rem;
+  font-family: "Creepster", system-ui;
 }
 
 /* División para agrupar Label e Input */
@@ -85,6 +85,12 @@
 .social-links img {
   width: 30px;
   height: 30px;
+  justify-content: center;
+}
+
+.mini-logo img {
+  width: 100px;
+  height: 100px;
   justify-content: center;
 }
 
